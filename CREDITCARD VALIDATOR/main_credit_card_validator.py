@@ -1,5 +1,4 @@
-print("Hello, Kindly Enter Card details to verify")
-card_number = input()
+card_number = input("Hello, Kindly Enter card details to verify: ")
 
 
 card_type = "Invalid Card"

@@ -6,8 +6,8 @@ String lowerAlphabet = "abcdefghijklmnopqrstuvwxyz";
 String upperAlphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 String encrypted = "";
 
-for (int i = 0; i < message.length(); i++) {
-    char letter = message.charAt(i);
+for (int count = 0; count < message.length(); count++) {
+    char letter = message.charAt(count);
 
     if (Character.isLowerCase(letter)) {
         int position = lowerAlphabet.indexOf(letter);

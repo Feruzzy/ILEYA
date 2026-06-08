@@ -17,8 +17,12 @@ int[] quantities = new int[100];
 double[] prices = new double[100];
 int itemCount = 0;
 
-       
-while (true) {
+
+
+boolean keepShopping = true;
+
+ 
+while (keepShopping) { 
     System.out.print("What did the user buy? ");
     items[itemCount] = input.nextLine();
 
@@ -34,6 +38,7 @@ while (true) {
     String choice = input.nextLine();
     if (choice.equalsIgnoreCase("no")) {
     break;
+
     }
     }
 
