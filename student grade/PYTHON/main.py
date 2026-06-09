@@ -24,5 +24,9 @@ def main():
     
     grade_function.subject_summary(grade_database, num_students, num_subjects)
 
+    grade_function.class_summary(grade_database, num_students, num_subjects)
 
 
+
+
+main()
